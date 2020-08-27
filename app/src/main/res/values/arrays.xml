@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="pref_timer_melody_labels">
+        <item>Hypnotic Brass ensemble War</item>
+        <item>Romantic Piano</item>
+    </array>
+    
+    <array name="pref_timer_melody_values">
+        <item>hypnotic_brass_ensemble_war</item>
+        <item>romantic_piano</item>
+    </array>
+</resources>

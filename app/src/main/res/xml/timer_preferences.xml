@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="enable_sound"
+        android:title="Enable sound"
+        android:summaryOff="Sound disabled"
+        android:summaryOn="Sound enabled"/>
+
+    <ListPreference
+        android:title="Timer Melody"
+        android:key="timer_melody"
+        android:defaultValue="hypnotic_brass_ensemble_war"
+        android:entries="@array/pref_timer_melody_labels"
+        android:entryValues="@array/pref_timer_melody_values"/>
+
+    <EditTextPreference
+        android:title="Timer Default"
+        android:key="timer_default"
+        android:defaultValue="30"/>
+
+
+</PreferenceScreen>
